@@ -1,0 +1,25 @@
+<div style="border:solid;padding:40px" onclick="click1()">
+    <button onclick="click2(event)">Submit</button>
+</div>
+
+<script>
+function click1(){
+
+
+
+console.log("hi")
+
+}
+
+function click2(x){
+
+console.log("hello")
+//console.log(typeof x)
+//x.CancelBubble=true;
+x.stopPropagation();
+
+}
+
+
+
+</script>
